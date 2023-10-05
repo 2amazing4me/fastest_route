@@ -6,7 +6,7 @@
 #include "API_handler.h"
 #include "routes.h"
 
-#define API_KEY "AIzaSyCGj7a58Pl1wlhK-IBB-fqX4plYY5oAJJ4"
+const char *API_KEY = std::getenv("MAPS_API_KEY");
 
 void get_addresses(int &nr_locations, vector<string> &addresses)
 {

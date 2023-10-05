@@ -1,5 +1,6 @@
 // Copyright 2023 Baldovin-Razvan-Mihai-Marian @2amazing4me
 
+#include <cstdlib>
 #include <iostream>
 #include <vector>
 

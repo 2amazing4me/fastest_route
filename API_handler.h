@@ -1,6 +1,7 @@
 // Copyright 2023 Baldovin-Razvan-Mihai-Marian @2amazing4me
 
 #include <chrono>
+#include <cstdlib>
 #include <iomanip>
 #include <iostream>
 #include <vector>
