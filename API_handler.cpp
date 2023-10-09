@@ -101,7 +101,7 @@ string getJSONPayload(vector<string> &addresses, int nr_locations, int add_time)
 	payload += "  ],\n";
 	// Set the travel mode to driving and calculate route time based on traffic
 	payload += "  \"travelMode\": \"DRIVE\",\n";
-	payload += "  \"routingPreference\": \"TRAFFIC_AWARE\",\n";
+	payload += "  \"routingPreference\": \"TRAFFIC_AWARE_OPTIMAL\",\n";
 	payload += "  \"departureTime\": \"" + timeToISO8601(add_time) + "\"\n";
 	payload += "}' \\\n";
 

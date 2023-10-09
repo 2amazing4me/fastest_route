@@ -46,5 +46,25 @@ int main()
 
 	redirect_to_web(min_route, addresses);
 
+	route = {0};
+	min_route.clear();
+	address_mask = 1;
+	min_time = INF;
+	get_route_with_return(route_matrix, nr_locations, route, 0, address_mask, 0,
+						  min_time, min_route);
+
+	// Print the fastest route
+	for (int i = 0; i < min_route.size(); ++i)
+		cout << min_route[i] << ". " << addresses[min_route[i]] << endl;
+
+	// Calculates and prints the time for the fastest route
+	hours = min_time / 3600;
+	minutes = (min_time % 3600) / 60;
+	seconds = min_time % 60;
+	cout << "Time: " << hours << " hours, " << minutes << " minutes, "
+		 << seconds << " seconds" << endl;
+
+	redirect_to_web(min_route, addresses);
+
 	return 0;
 }
