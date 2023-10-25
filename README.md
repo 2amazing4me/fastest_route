@@ -1,6 +1,6 @@
 # Fastest Route Finder
 
-> **Notice**: This project is a subset of a larger application. For the full implementation and additional features, please refer to [this GitHub repository](https://github.com/username/full-project-repo).
+> **Notice**: This project is a subset of a larger application. For the full implementation and additional features, please refer to [this GitHub repository](https://github.com/Eroaleee/Bringo_Demo).
 
 ## Overview
 
